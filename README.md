@@ -1,2 +1,7 @@
-# SANS-HackFest-2023
- 
+## (Ab)using the Microsoft Identity Platform: Exploring Azure AD Token Caching
+
+#### Abstract
+
+This presentation examines how JSON Web Token (JWT) caching works in corporate settings with Azure Active Directory (Azure AD) integration, including Azure AD Joined and Hybrid environments. These tokens, accessible to local users, interface with a variety of authorized protected web services. Local attackers can leverage these tokens to access critical corporate resources, like Outlook, Drive, SharePoint, and Teams. While API access is interesting, its operational implications are not always ideal. On the IBM Adversary Services team, we have developed a few lightweight API clients that utilize these tokens to facilitate graphical access to resources. We will demonstrate some of these clients and expand on their limitations and practical use.
+
+Abusing stolen credentials has been a critical part of the attacker lifecycle, assisting in persistence, privilege escalation, lateral movement, and information gathering. As Azure AD's prominence increases, it becomes crucial for defenders to understand how traditional attacks can take on new forms. This understanding will aid in developing more effective defense strategies in an increasingly cloud-focused environment.
